@@ -1,0 +1,15 @@
+
+
+Clothes Shop- (written in java- Android).
+I built a mobile app that contains:
+1. Three activities: Main Activity,Men activity and women activity (connected via intent).
+2.List view in each activity, attached with an Adapter.
+3. in each list view: onclick item shows a dialog that contains information of the specific selected item(price ,image etc.), on long click the item will be removed from the list.
+4.Each activity has a toolBar that includes a menu, in the menu : *you can click on exit to exit the activity/the app.
+                                                                *you can click on settings, a preferences screen shows
+5. Preferences screen includes many options: clearing data, saving deleted items in shared preferences,BroadCast reciever that changes the Preferences switch when the user changes the Wifi button in Android.
+6.In Main activity, when clicking on All items you can view both women and men items( not sorted).
+7. when clearing data in a certin activity(men or women) it will not affect the deleted items in the other activity.
+8.Parser that parses an Xml file located in Assets foler to load data into the ListView.
+
+,Copyright (c) 2019 Sally Dabbah	
